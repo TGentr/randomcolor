@@ -15,5 +15,6 @@ function random_bg_color() {
  
 
 console.log(Math.random() * 256);
+//end
 
 
