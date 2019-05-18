@@ -1,12 +1,11 @@
 body {
     min-height: 95vh;
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center; 
     font: sans-serif;
     flex-direction: column;
 }
-
 button {
     display: inline-block;
     border: 2px solid white;
@@ -21,15 +20,11 @@ button {
     line-height: 1;
     cursor: pointer;
     text-align: center;
-    outline: none;
-    
+    outline: none;  
 }
-
-button:hover,
-button:focus {
+button:hover, button:focus {
     background: #073a79;
 }
-
 .rgbtu {
     line-height: 16px;
     font-family: sans-serif;
